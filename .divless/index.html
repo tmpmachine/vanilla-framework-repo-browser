@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link href="css/style.css" rel="stylesheet"/>
+  <link href="css/skin-default.css" rel="stylesheet"/>
+
+</head>
+<body>
+  
+  <section class="fx fr fx-default">
+  
+    <!-- tree -->
+    [ 
+      [ul ._wgTree]
+      [hr]
+    ]
+    
+    <!-- output -->
+    <section class="fx fr layout-default">
+      <section>
+        [btn 'Get CDN' data-onclick="getCDN"]
+        [l
+          [in type="checkbox" ._inIsScript]
+          Script tag
+        ]
+        [l
+          [in type="checkbox" ._inIsMinified]
+          Minified
+        ]
+        [l
+          [in type="checkbox" ._isArrayFormat]
+          Array format
+        ]
+      </section>
+      <!-- textarea -->
+      [t {w:650px;aspect-ratio:16/9} ._cdn]
+    </section>
+  
+  </section>
+  
+  <!-- # templates -->
+  <!-- ========= -->
+  
+  <template class="_itemTree">
+    [li
+      [s data-slot="name"]
+      [ul data-slot="ul"
+      
+      ]
+    ]
+  </template>
+  <template class="_itemBlob">
+    [li .flex .gap-50
+      [small .flex .gap-50
+        [a href="#" 'jsDelivr' data-slot="cdn"] | 
+        [a href="#" 'Raw' data-slot="raw"] | 
+        [a href="#" 'Blob'  data-slot="blob"]
+        [a href="#" 'Doc'  data-slot="md"]
+      ]
+      [
+        [l .flex .align-center 
+          [in type="checkbox" value="" name="file" data-slot="input"]
+          [s data-slot="name"]
+        ]
+      ]
+    ]
+  </template>
+  
+  <!-- # scripts -->
+  <!-- ========= -->
+  
+  <script src="tree.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/tmpmachine/vanilla-framework@latest/libs/dom-slots.js"></script>
+  <script src="index.js" type="module"></script>
+  
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link href="css/style.css" rel="stylesheet"/>
+  <link href="css/skin-default.css" rel="stylesheet"/>
+
+</head>
+<body>
+  
+  <section class="fx fr fx-default">
+  
+    <!-- tree -->
+    <div>
+      <ul class="_wgTree"></ul>
+      <hr/>
+    </div>
+    
+    <!-- output -->
+    <section class="fx fr layout-default">
+      <section>
+        <button data-onclick="getCDN">Get CDN</button>
+        <label>
+          <input class="_inIsScript" type="checkbox"/>
+          Script tag
+        </label>
+        <label>
+          <input class="_inIsMinified" type="checkbox"/>
+          Minified
+        </label>
+        <label>
+          <input class="_isArrayFormat" type="checkbox"/>
+          Array format
+        </label>
+      </section>
+      <!-- textarea -->
+      <textarea class="_cdn" style="width:650px;aspect-ratio:16/9;"></textarea>
+    </section>
+  
+  </section>
+  
+  <!-- # templates -->
+  <!-- ========= -->
+  
+  <template class="_itemTree">
+    <li>
+      <span data-slot="name"></span>
+      <ul data-slot="ul">
+      
+      </ul>
+    </li>
+  </template>
+  <template class="_itemBlob">
+    <li class="flex gap-50">
+      <small class="flex gap-50">
+        <a href="#" data-slot="cdn">jsDelivr</a> | 
+        <a href="#" data-slot="raw">Raw</a> | 
+        <a href="#" data-slot="blob">Blob</a>
+        <a href="#" data-slot="md">Doc</a>
+      </small>
+      <div>
+        <label class="flex align-center">
+          <input type="checkbox" value="" name="file" data-slot="input"/>
+          <span data-slot="name"></span>
+        </label>
+      </div>
+    </li>
+  </template>
+  
+  <!-- # scripts -->
+  <!-- ========= -->
+  
+  <script src="tree.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/tmpmachine/vanilla-framework@latest/libs/dom-slots.js"></script>
+  <script src="index.js" type="module"></script>
+  
+</body>
+</html>
