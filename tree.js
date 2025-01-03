@@ -88,8 +88,8 @@ let tree = [
         "path": "factories",
         "mode": "040000",
         "type": "tree",
-        "sha": "77f05a263b9c0af93159fb0d06736a795bfd8d6d",
-        "url": "https://api.github.com/repos/tmpmachine/vanilla-framework/git/trees/77f05a263b9c0af93159fb0d06736a795bfd8d6d"
+        "sha": "cc9669fcfef83f07df54b0afeeb2eaa253638afd",
+        "url": "https://api.github.com/repos/tmpmachine/vanilla-framework/git/trees/cc9669fcfef83f07df54b0afeeb2eaa253638afd"
     },
     {
         "path": "factories/array-data-factory.js",
@@ -103,9 +103,17 @@ let tree = [
         "path": "factories/dialog-factory.js",
         "mode": "100644",
         "type": "blob",
-        "sha": "e4d60eb189d0e1ab82c703c1630d0bcfae2b63eb",
-        "size": 2079,
-        "url": "https://api.github.com/repos/tmpmachine/vanilla-framework/git/blobs/e4d60eb189d0e1ab82c703c1630d0bcfae2b63eb"
+        "sha": "10e735e7e2f079d0ac3fbbebdc3917d819fb2421",
+        "size": 2357,
+        "url": "https://api.github.com/repos/tmpmachine/vanilla-framework/git/blobs/10e735e7e2f079d0ac3fbbebdc3917d819fb2421"
+    },
+    {
+        "path": "factories/dialog-factory.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0478b3b607b0c51cbfa4e90f9e7ba1a773e6ed9b",
+        "size": 863,
+        "url": "https://api.github.com/repos/tmpmachine/vanilla-framework/git/blobs/0478b3b607b0c51cbfa4e90f9e7ba1a773e6ed9b"
     },
     {
         "path": "factories/list-view-factory.js",
@@ -135,9 +143,9 @@ let tree = [
         "path": "factories/view-state-factory.md",
         "mode": "100644",
         "type": "blob",
-        "sha": "fa58b22cc3d234b794a227f0b8688f4ba697127f",
-        "size": 1050,
-        "url": "https://api.github.com/repos/tmpmachine/vanilla-framework/git/blobs/fa58b22cc3d234b794a227f0b8688f4ba697127f"
+        "sha": "67ca5a7ce7415de7a67e69bd9a3aba531f5f1058",
+        "size": 1100,
+        "url": "https://api.github.com/repos/tmpmachine/vanilla-framework/git/blobs/67ca5a7ce7415de7a67e69bd9a3aba531f5f1058"
     },
     {
         "path": "index.js",
@@ -151,8 +159,8 @@ let tree = [
         "path": "libs",
         "mode": "040000",
         "type": "tree",
-        "sha": "d976cd367b71e5fb9f2ef2aba97cbbc1a6f846d3",
-        "url": "https://api.github.com/repos/tmpmachine/vanilla-framework/git/trees/d976cd367b71e5fb9f2ef2aba97cbbc1a6f846d3"
+        "sha": "0472c3aa50e41a6668edb23dae4f7683e28cd324",
+        "url": "https://api.github.com/repos/tmpmachine/vanilla-framework/git/trees/0472c3aa50e41a6668edb23dae4f7683e28cd324"
     },
     {
         "path": "libs/data-server.js",
@@ -195,12 +203,20 @@ let tree = [
         "url": "https://api.github.com/repos/tmpmachine/vanilla-framework/git/blobs/fa398fda889ba122794b0ae2c6918145ad3f0013"
     },
     {
+        "path": "libs/dom-states.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5b13bf2a8470810e5a4e3d1d818e82f3275c0790",
+        "size": 471,
+        "url": "https://api.github.com/repos/tmpmachine/vanilla-framework/git/blobs/5b13bf2a8470810e5a4e3d1d818e82f3275c0790"
+    },
+    {
         "path": "libs/list-container-builder.js",
         "mode": "100644",
         "type": "blob",
-        "sha": "e30f9a65b3d7f6a756e750bfd06a89990a0a98b4",
-        "size": 1693,
-        "url": "https://api.github.com/repos/tmpmachine/vanilla-framework/git/blobs/e30f9a65b3d7f6a756e750bfd06a89990a0a98b4"
+        "sha": "05d26afd52514f50d495e35066720226b00d7788",
+        "size": 1666,
+        "url": "https://api.github.com/repos/tmpmachine/vanilla-framework/git/blobs/05d26afd52514f50d495e35066720226b00d7788"
     },
     {
         "path": "libs/windog.js",
